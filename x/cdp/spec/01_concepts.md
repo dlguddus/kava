@@ -11,7 +11,7 @@ Once created, stable assets are free to be transferred between users, but a CDP 
 User interactions with this module:
 
 - create a new CDP by depositing a supported coin as collateral and minting debt
-- deposit to a CDP controlled a different owner address
+- deposit to a CDP controlled by a different owner address
 - withdraw deposited collateral, if it doesn't put the CDP below the liquidation ratio
 - issue stable coins from this CDP (up to a fraction of the value of the collateral)
 - repay debt by paying back stable coins (including paying any fees accrued)
